@@ -28,7 +28,7 @@ namespace TodoApi
                 options.AddPolicy (AllowMyWebApp,
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:5500","http:127.0.0.1:5500");
+                        builder.WithOrigins("http://localhost:5500");
                     });
             });
             services.AddDbContext<TodoContext> (opt => opt.UseInMemoryDatabase ("TodoList"));
