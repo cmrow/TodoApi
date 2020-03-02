@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj": {}
+    "d:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "D:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj": {
+    "d:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "d:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "D:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj",
+        "projectPath": "d:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\mario.rodriguez\\.nuget\\packages\\",
-        "outputPath": "D:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\obj\\",
+        "outputPath": "d:\\cm\\bagoffice2\\NetCore\\Proyects\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mario.rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config"

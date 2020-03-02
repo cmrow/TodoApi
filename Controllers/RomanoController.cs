@@ -25,19 +25,23 @@ namespace TodoApi.Controllers
         }
 
         [HttpGet ("{numero}")]
-        public ActionResult<string> GetRomanos (int numero)
+        public ActionResult<object> GetRomanos (int numero)
         {
             try
             {
-                return Ok (_romanoContext.ToRoman (numero));
+                return Ok (new
+                {
+                    rom = _romanoContext.ToRoman (numero),
+                        dec = numero
+                });
             }
             catch (System.ArgumentOutOfRangeException ex)
             {
-                return StatusCode (406, ex.Message);
+                return StatusCode (406, new Exception(ex.Message));
             }
             catch (System.IndexOutOfRangeException ex)
             {
-                return NotFound(ex.Message);
+                return NotFound (new Exception(ex.Message));
             }
         }
 
